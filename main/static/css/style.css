@@ -1,0 +1,82 @@
+ body {
+     background: linear-gradient(to bottom right, #f7bb97, #dd5e89);
+     font-family: Arial, sans-serif;
+ }
+
+ .container {
+     background-color: #fff;
+     margin-top: 50px;
+     padding: 30px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+
+ h1 {
+     color: #dd5e89;
+     text-align: center;
+ }
+
+ .navbar {
+     background-color: #f7bb97;
+ }
+
+ .navbar-brand {
+     color: #fff;
+     font-size: 24px;
+ }
+
+ .nav-link {
+     color: #fff;
+     font-size: 18px;
+ }
+
+ .form-control {
+     border-radius: 0;
+     border: none;
+     border-bottom: 2px solid #f7bb97;
+     box-shadow: none;
+ }
+
+ .btn-primary {
+     background-color: #dd5e89;
+     border-color: #dd5e89;
+ }
+
+ .btn-primary:hover {
+     background-color: #c44b7c;
+     border-color: #c44b7c;
+ }
+
+ /* Added styles for label with float input */
+ label[for="exampleInputFloat"]::before {
+     content: "Float Value (e.g. 3.14): ";
+     color: #dd5e89;
+     font-weight: bold;
+ }
+
+ /* Added styles for label with class input */
+ label[for="exampleInputClass"]::before {
+     content: "Class (Yes or No): ";
+     color: #dd5e89;
+     font-weight: bold;
+ }
+
+ /* Added styles for error message */
+ .error-message {
+     color: red;
+     font-weight: bold;
+ }
+
+ .footer {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     background-image: linear-gradient(to right, #f2a154, #ff6e7f);
+ }
+
+ .footer footer {
+     color: white;
+ }
